@@ -1,6 +1,6 @@
 <?php
 // Sisipkan file konfigurasi
-require_once('../includes/config.php');
+require_once('/Belajar-PHP/includes/config.php');
 
 // Cek apakah form pendaftaran telah disubmit
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $_SESSION['password'] = $password;
 
     // Arahkan ke halaman login (Anda bisa memilih untuk mengarahkan ke halaman lain setelah pendaftaran berhasil)
-    header('Location: ../pages/login.php');
+    header('Location: /Belajar-PHP/pages/login.html');
     exit();
 }
 ?>
