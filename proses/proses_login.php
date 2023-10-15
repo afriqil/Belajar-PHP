@@ -2,7 +2,7 @@
 // Simpan informasi login
 $login_berhasil = false;
 $username = "Afriqil"; // Ganti dengan username yang benar
-$password = "wildan"; // Ganti dengan password yang benar
+$password = "wildan123"; // Ganti dengan password yang benar
 
 // Periksa apakah formulir telah disubmit
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

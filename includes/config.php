@@ -1,16 +1,14 @@
 <?php
-// Mulai sesi
-session_start();
+$host = "localhost"; // Host database
+$username_db = "nama_pengguna_db"; // Username database
+$password_db = "password_db"; // Password database
+$database = "Login"; // Nama database
 
-// Koneksi ke database (jika diperlukan)
-$db_host = "localhost";
-$db_user = "root";
-$db_password = "";
-$db_name = "login";
+// Membuat koneksi ke database
+$koneksi = new mysqli($host, $username_db, $password_db, $database);
 
-$conn = mysqli_connect($db_host, $db_user, $db_password, $db_name);
-
-if (!$conn) {
-    die("Koneksi ke database gagal: " . mysqli_connect_error());
+// Periksa apakah koneksi berhasil
+if ($koneksi->connect_error) {
+    die("Koneksi database gagal: " . $koneksi->connect_error);
 }
 ?>
