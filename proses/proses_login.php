@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['username'] = $username;
 
         // Arahkan ke halaman listing produk
-        header('Location: ../pages/dashboard.php');
+        header('Location: /Belajar-PHP/pages/dashboard.html');
         exit();
     } else {
         // Jika tidak sesuai, tampilkan pesan error
