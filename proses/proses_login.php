@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 if ($login_berhasil) {
     // Jika login berhasil, arahkan ke halaman dashboard
-    header("Location: /pages/dashboard.html");
+    header("Location: /Belajar-PHP/pages/dashboard.html");
 } else {
     // Jika login gagal, beri pesan kesalahan
     echo "Login gagal. Silakan coba lagi.";
