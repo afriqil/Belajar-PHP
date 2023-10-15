@@ -1,6 +1,6 @@
 <?php
 // Sisipkan file konfigurasi
-require_once('../includes/config.php');
+require_once('/Belajar-PHP/includes/config.php');
 
 // Cek apakah form login telah disubmit
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
