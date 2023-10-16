@@ -1,7 +1,7 @@
 // Array produk
 const products = [
   {
-    imgSrc: "/Assets/Images/big burger.webp",
+    imgSrc: "/Belajar-PHP/Assets/Images/big burger.webp",
     alt: "Big Burger",
     title: "Big Burger",
     description: "Enak dan Lezat",
@@ -9,7 +9,7 @@ const products = [
   },
 
   {
-    imgSrc: "/Assets/Images/big burger.webp",
+    imgSrc: "/Belajar-PHP/Assets/Images/big burger.webp",
     alt: "Big Burger",
     title: "Big Burger",
     description: "Enak dan Lezat",
@@ -17,7 +17,7 @@ const products = [
   },
 
   {
-    imgSrc: "/Assets/Images/big burger.webp",
+    imgSrc: "/Belajar-PHP/Assets/Images/big burger.webp",
     alt: "Big Burger",
     title: "Big Burger",
     description: "Enak dan Lezat",
@@ -25,7 +25,7 @@ const products = [
   },
 
   {
-    imgSrc: "/Assets/Images/big burger.webp",
+    imgSrc: "/Belajar-PHP/Assets/Images/big burger.webp",
     alt: "Big Burger",
     title: "Big Burger",
     description: "Enak dan Lezat",
@@ -33,7 +33,7 @@ const products = [
   },
 
   {
-    imgSrc: "/Assets/Images/big burger.webp",
+    imgSrc: "/Belajar-PHP/Assets/Images/big burger.webp",
     alt: "Big Burger",
     title: "Big Burger",
     description: "Enak dan Lezat",
@@ -41,7 +41,7 @@ const products = [
   },
 
   {
-    imgSrc: "/Assets/Images/big burger.webp",
+    imgSrc: "/Belajar-PHP/Assets/Images/big burger.webp",
     alt: "Big Burger",
     title: "Big Burger",
     description: "Enak dan Lezat",
